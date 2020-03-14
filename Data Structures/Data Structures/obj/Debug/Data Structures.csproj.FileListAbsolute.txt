@@ -1,0 +1,6 @@
+\\GMRDC1\Folder Redirection\spencer.morga\Documents\Visual Studio 2017\Projects\Data Structures\Data Structures\bin\Debug\Data Structures.exe.config
+\\GMRDC1\Folder Redirection\spencer.morga\Documents\Visual Studio 2017\Projects\Data Structures\Data Structures\bin\Debug\Data Structures.exe
+\\GMRDC1\Folder Redirection\spencer.morga\Documents\Visual Studio 2017\Projects\Data Structures\Data Structures\bin\Debug\Data Structures.pdb
+\\GMRDC1\Folder Redirection\spencer.morga\Documents\Visual Studio 2017\Projects\Data Structures\Data Structures\obj\Debug\Data Structures.csprojAssemblyReference.cache
+\\GMRDC1\Folder Redirection\spencer.morga\Documents\Visual Studio 2017\Projects\Data Structures\Data Structures\obj\Debug\Data Structures.exe
+\\GMRDC1\Folder Redirection\spencer.morga\Documents\Visual Studio 2017\Projects\Data Structures\Data Structures\obj\Debug\Data Structures.pdb
