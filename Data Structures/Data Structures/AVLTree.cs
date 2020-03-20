@@ -281,6 +281,10 @@ namespace Data_Structures
             Console.WriteLine("<==============");
 
         }
+        
+        public LinkedList<T> BreadthFirst()
+        {
+
         public void LeftRotation(AVLNode<T> node)
         {
             if (node.Parent == null)
