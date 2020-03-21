@@ -269,7 +269,7 @@ namespace Data_Structures
         }
         public void PreOrderPrint(LinkedList<T> lists)
         {
-            Console.WriteLine("=============>");
+            Console.WriteLine("======pre.order=======>");
             T[] list = lists.ToArray<T>();
             for (int i = 0; i < list.Length; i++)
             {
@@ -278,12 +278,45 @@ namespace Data_Structures
                     Console.WriteLine(list[i]);
                 }        
             }
-            Console.WriteLine("<==============");
+            Console.WriteLine("<========pre.order======");
 
         }
         
         public LinkedList<T> BreadthFirst()
         {
+            LinkedList<T> list = new LinkedList<T>();
+            AVLnode<T> current = Root;
+            
+            while (current != null)
+            {
+                list.Add(current.Value)
+                
+                if (current.left != null)
+                {
+                     list.Add(current.left);
+                }
+                 if (current.right != null)
+                {
+                     list.Add(current.right)
+                }
+
+            }
+            return nodes;
+        }
+        
+        public void BreadthFirstPrint (LinkedList<T> list)
+        {
+            Console.WriteLine("====brdt.fst.=====>");
+            T[] list = lists.ToArray<T>();
+            for (int i = 0; i < list.Length; i++)
+            {
+                if (list[i] != null)
+                {
+                    Console.WriteLine(list[i]);
+                }        
+            }
+            Console.WriteLine("<====brdt.fst.===");
+        }
 
         public void LeftRotation(AVLNode<T> node)
         {
